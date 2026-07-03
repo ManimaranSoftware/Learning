@@ -1,4 +1,4 @@
-### LINQ
+# LINQ
 
 - Language feature for querying collections and data sources.
 - Supports SQL-like operations in C#.
@@ -6,177 +6,308 @@
 
 ---
 
-### Query Syntax
+## Query Syntax
 
 - SQL-like syntax using `from`, `where`, `select`.
-- Easier for complex queries.
+
+```csharp
+var result = from n in numbers
+             where n > 20
+             select n;
+```
 
 ---
 
-### Method Syntax
+## Method Syntax (Most Used)
 
 - Uses extension methods and lambda expressions.
-- Most commonly used in projects.
+
+```csharp
+var result = numbers.Where(n => n > 20);
+```
 
 ---
 
-### Where()
+## Where()
 
-- Filters data based on a condition.
+- Filters data.
 
----
-
-### Select()
-
-- Projects or transforms data into a new form.
+```csharp
+numbers.Where(n => n > 20);
+```
 
 ---
 
-### SelectMany()
+## Select()
 
-- Flattens nested collections into a single collection.
+- Projects/transforms data.
 
----
-
-### OrderBy()
-
-- Sorts data in ascending order.
+```csharp
+employees.Select(e => e.Name);
+```
 
 ---
 
-### OrderByDescending()
+## SelectMany()
 
-- Sorts data in descending order.
+- Flattens nested collections.
 
----
-
-### ThenBy()
-
-- Secondary sorting after `OrderBy()`.
+```csharp
+students.SelectMany(s => s.Subjects);
+```
 
 ---
 
-### GroupBy()
+## OrderBy()
 
-- Groups data based on a key.
+- Ascending order.
 
----
-
-### Join()
-
-- Combines two collections based on a matching key.
+```csharp
+employees.OrderBy(e => e.Name);
+```
 
 ---
 
-### Distinct()
+## OrderByDescending()
 
-- Removes duplicate elements.
+- Descending order.
+
+```csharp
+employees.OrderByDescending(e => e.Salary);
+```
 
 ---
 
-### Any()
+## ThenBy()
+
+- Secondary sorting.
+
+```csharp
+employees.OrderBy(e => e.Department)
+         .ThenBy(e => e.Name);
+```
+
+---
+
+## GroupBy()
+
+- Groups by a key.
+
+```csharp
+employees.GroupBy(e => e.Department);
+```
+
+---
+
+## Join()
+
+- Joins two collections.
+
+```csharp
+employees.Join(departments,
+    e => e.DepartmentId,
+    d => d.Id,
+    (e, d) => new { e.Name, d.DepartmentName });
+    
+    // e is alias for employees 
+    // d is alias for department
+```
+
+```SQL
+SELECT e.Name, d.DepartmentName
+FROM Employee e
+JOIN Department d
+ON e.DepartmentId = d.Id;
+```
+---
+
+## Distinct()
+
+- Removes duplicates.
+
+```csharp
+numbers.Distinct();
+```
+
+---
+
+## Any()
 
 - Returns `true` if at least one element matches.
 
----
-
-### All()
-
-- Returns `true` if all elements satisfy the condition.
+```csharp
+numbers.Any(n => n > 100);
+```
 
 ---
 
-### Count()
+## All()
 
-- Returns the number of elements.
+- Returns `true` if all elements match.
 
----
-
-### First()
-
-- Returns the first matching element.
-- Throws exception if no element exists.
+```csharp
+numbers.All(n => n > 0);
+```
 
 ---
 
-### FirstOrDefault()
+## Count()
 
-- Returns first matching element or default value.
+- Returns total count.
 
----
+```csharp
+numbers.Count();
+```
 
-### Single()
+or
 
-- Returns exactly one matching element.
-- Throws exception if zero or multiple elements exist.
-
----
-
-### SingleOrDefault()
-
-- Returns one matching element or default value.
-- Throws exception if multiple elements exist.
+```csharp
+numbers.Count(n => n > 20);
+```
 
 ---
 
-### Last()
+## First()
 
-- Returns the last matching element.
+- Returns first element.
+- Throws exception if not found.
 
----
-
-### LastOrDefault()
-
-- Returns last matching element or default value.
-
----
-
-### Skip()
-
-- Skips specified number of elements.
+```csharp
+numbers.First();
+```
 
 ---
 
-### Take()
+## FirstOrDefault()
 
-- Returns specified number of elements.
+- Returns first element or default.
 
----
-
-### Aggregate()
-
-- Performs custom aggregation on a collection.
+```csharp
+numbers.FirstOrDefault();
+```
 
 ---
 
-### Deferred Execution
+## Single()
+
+- Returns exactly one element.
+- Throws exception if none or multiple exist.
+
+```csharp
+employees.Single(e => e.Id == 1);
+```
+
+---
+
+## SingleOrDefault()
+
+- Returns one element or default.
+- Throws exception if multiple exist.
+
+```csharp
+employees.SingleOrDefault(e => e.Id == 1);
+```
+
+---
+
+## Last()
+
+- Returns last element.
+
+```csharp
+numbers.Last();
+```
+
+---
+
+## LastOrDefault()
+
+- Returns last element or default.
+
+```csharp
+numbers.LastOrDefault();
+```
+
+---
+
+## Skip()
+
+- Skips specified elements.
+
+```csharp
+numbers.Skip(10);
+```
+
+---
+
+## Take()
+
+- Takes specified elements.
+
+```csharp
+numbers.Take(5);
+```
+
+---
+
+## Aggregate()
+
+- Performs custom aggregation.
+
+```csharp
+numbers.Aggregate((a, b) => a + b);
+```
+
+---
+
+## Deferred Execution
 
 - Query executes only when enumerated.
-- Improves performance.
+
+```csharp
+var result = numbers.Where(n => n > 20);
+
+// Executes here
+foreach (var n in result)
+{
+    Console.WriteLine(n);
+}
+```
 
 ---
 
-### Immediate Execution
+## Immediate Execution
 
-- Query executes immediately using methods like `ToList()`, `ToArray()`, `Count()`.
+- Executes immediately using methods like `ToList()`, `ToArray()`, `Count()`.
+
+```csharp
+var list = numbers.Where(n => n > 20).ToList();
+```
 
 ---
 
-### IEnumerable`<T>`
+## IEnumerable `<T>`
 
 - Executes in memory.
-- Suitable for collections like `List<T>` and arrays.
+- Used for `List<T>`, arrays, etc.
+
+```csharp
+IEnumerable<int> nums = numbers.Where(n => n > 20);
+```
 
 ---
 
-### IQueryable`<T>`
+## IQueryable`<T>`
 
-- Query executed by data source (e.g., SQL Server via EF Core).
-- Improves performance by translating queries.
+- Query executed by the database (EF Core).
+
+```csharp
+IQueryable<Employee> employees = context.Employees;
+```
 
 ---
 
-### Benefits
+## Benefits
 
 - Readable and concise code.
 - Type-safe queries.
@@ -185,7 +316,7 @@
 
 ---
 
-### Common Interview Comparisons
+## Common Interview Comparisons
 
 - Query Syntax vs Method Syntax
 - IEnumerable vs IQueryable
@@ -193,3 +324,66 @@
 - Single vs SingleOrDefault
 - Any vs All
 - Deferred Execution vs Immediate Execution
+
+
+# LINQ Interview Questions
+
+## Q: Find the department with the **second highest employee count** (L&T interview question)
+
+```csharp
+var result = employees
+    .GroupBy(e => e.Department)
+    .Select(g => new
+    {
+        Department = g.Key,
+        EmployeeCount = g.Count()
+    })
+    .OrderByDescending(x => x.EmployeeCount)
+    .Skip(1)
+    .FirstOrDefault();
+```
+
+**Output**
+
+```text
+Department = IT
+EmployeeCount = 10
+```
+
+**Approach**
+
+- `GroupBy()` → Group employees by department.
+    
+- `Count()` → Count employees in each department.
+    
+- `OrderByDescending()` → Sort by employee count (highest first).
+    
+- `Skip(1)` → Skip the highest.
+    
+- `FirstOrDefault()` → Return the second highest department.
+    
+
+---
+
+## Q: Find only the **department name** with the second highest employee count
+
+```csharp
+string departmentName = employees
+    .GroupBy(e => e.Department)
+    .OrderByDescending(g => g.Count())
+    .Skip(1)
+    .Select(g => g.Key)
+    .FirstOrDefault();
+```
+
+**Output**
+
+```text
+IT
+```
+
+**Memory Trick**
+
+```text
+GroupBy → Count → OrderByDescending → Skip(1) → Select(Key) → FirstOrDefault()
+```

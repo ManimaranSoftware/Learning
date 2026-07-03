@@ -54,7 +54,40 @@
 
 - Static Class - Cannot be instantiated, Contains only static members.
 - Static Method - Called without creating an object.
-- Static Constructor - Executes once before first use of the class.
+- **Static Constructor** - Executes once before first use of the class.
+
+static means the member belongs to the class itself, not to an object (instance).
+
+```
+//Example with class
+class Employee
+{
+    public string Name;
+}
+
+Employee e1 = new Employee();
+Employee e2 = new Employee();
+e1.Name = "Mani";
+e2.Name = "maran";  
+  
+each object has its own Name
+
+//Example with static:
+class Employee
+{
+    public static string Company = "SG";
+}
+
+//Access directly through the class:
+Console.WriteLine(Employee.Company);
+//No object needed.
+
+Interview Examples
+Math.PI
+Console.WriteLine()
+DateTime.Now
+These are static members.
+```
 
 ---
 

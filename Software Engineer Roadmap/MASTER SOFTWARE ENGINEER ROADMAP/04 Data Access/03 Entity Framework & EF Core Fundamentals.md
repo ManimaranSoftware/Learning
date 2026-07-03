@@ -28,7 +28,7 @@
 
 ---
 
-### DbSet</TEntity>
+### DbSet`<Entity>`
 
 - Represents a database table.
 - Used to perform CRUD operations.
