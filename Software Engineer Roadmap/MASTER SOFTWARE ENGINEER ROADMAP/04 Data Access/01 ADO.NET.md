@@ -72,6 +72,21 @@
 - Improves application performance.
 - Enabled by default in ADO.NET.
 
+with Connection pooling (Pooling = true)
+```
+using System.Data.SqlClient;
+
+string connString = "Server=myServer;Database=myDB;User Id=myUser;Password=myPassword;Pooling=true;";
+
+using (SqlConnection conn = new SqlConnection(connString))
+{
+    conn.Open();
+    // Perform database operations
+    conn.Close(); // Returns the connection to the pool instead of closing it physically
+} // The using block calls Dispose(), ensuring no memory leaks
+
+```
+
 ---
 
 ### Benefits

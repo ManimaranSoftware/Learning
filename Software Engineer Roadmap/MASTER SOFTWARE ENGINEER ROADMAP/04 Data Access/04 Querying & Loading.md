@@ -58,6 +58,19 @@
 
 - Loads related data together with the main entity.
 - Uses `Include()`.
+```csharp
+// Fetches blogs and all their posts in one round-trip database call
+var blogs = context.Blogs
+                   .Include(b => b.Posts)
+                   .ToList();
+
+foreach (var blog in blogs)
+{
+    // Data is already in memory; no extra database queries are fired here
+    Console.WriteLine($"Blog: {blog.Url}, Posts Count: {blog.Posts.Count}");
+}
+
+```
 
 ---
 
@@ -65,6 +78,18 @@
 
 - Loads related data only when accessed.
 - Requires Lazy Loading support.
+```csharp
+// Initial query fetches ONLY the blogs table records
+var blogs = context.Blogs.ToList(); 
+
+foreach (var blog in blogs)
+{
+    // Fired on every iteration: EF Core transparently makes a brand new 
+    // SQL query to fetch posts for THIS specific blog right now.
+    Console.WriteLine($"Blog: {blog.Url}, Posts Count: {blog.Posts.Count}");
+}
+
+```
 
 ---
 
@@ -72,6 +97,24 @@
 
 - Related data loaded manually when required.
 - Provides better control than Lazy Loading.
+```csharp
+// Fetches only a single blog record
+var blog = context.Blogs.FirstOrDefault(b => b.BlogId == 1);
+
+// Business logic determines if we need the posts
+bool needsHistory = CheckSomeBusinessCondition();
+
+if (needsHistory)
+{
+    // Explicitly command EF Core to fire a query and load the Posts collection
+    context.Entry(blog)
+           .Collection(b => b.Posts)
+           .Load(); 
+           
+    Console.WriteLine($"Manually loaded {blog.Posts.Count} posts.");
+}
+
+```
 
 ---
 

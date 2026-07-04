@@ -86,7 +86,7 @@
 ### Constraints
 
 - NOT NULL - Prevents `NULL` values.
-- UNIQUE - Ensures unique values.
+- UNIQUE - Ensures unique values. - null allowed
 - PRIMARY KEY - Uniquely identifies rows.
 - FOREIGN KEY - Maintains referential integrity.
 - CHECK - Restricts allowed values.
