@@ -52,6 +52,13 @@
 - Defines storage cost and availability.
 - Examples - Standard, Intelligent-Tiering, Glacier.
 
+Which S3 storage class would you choose?
+- User uploads/photos → **S3 Standard**
+- Logs with unpredictable access → **S3 Intelligent-Tiering**
+- Monthly reports → **S3 Standard-IA**
+- Daily backups → **S3 Glacier Flexible Retrieval**
+- Legal/compliance archives → **S3 Glacier Deep Archive**
+- High-performance analytics → **S3 Express One Zone**
 ---
 
 ### Amazon EBS

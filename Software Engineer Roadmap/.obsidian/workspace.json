@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/00 Topic.md",
+                "file": "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/00 Topic.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/04 MVC & Request Handling.md",
+                "file": "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/04 MVC & Request Handling.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/09 Performance Optimization.md",
+                "file": "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS/03 Database & Messaging.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09 Performance Optimization"
+              "title": "03 Database & Messaging"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/09 Performance Optimization.md",
+                "file": "01 Plan/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 09 Performance Optimization"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/09 Performance Optimization.md",
+                "file": "01 Plan/Untitled.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 09 Performance Optimization"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/09 Performance Optimization.md",
+                "file": "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS/03 Database & Messaging.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": "auth"
               },
               "icon": "lucide-list",
-              "title": "Outline of 09 Performance Optimization"
+              "title": "Outline of 03 Database & Messaging"
             }
           }
         ],
@@ -214,46 +214,46 @@
   },
   "active": "51e3959a6cdcfc5f",
   "lastOpenFiles": [
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/08 Transactions & ACID.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/07 Indexes.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/06 Views & Stored Procedures.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/05A Advanced SQL.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/05 Subqueries & CTE.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/04 Grouping & Sorting.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/03 Functions.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/02 Joins.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/01 SQL Fundamentals.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/00 Topic.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/06 Performance & Tracking.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/05 Migrations & Transactions.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/04 Querying & Loading.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/03 Entity Framework & EF Core Fundamentals.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/02 Dapper.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/01 ADO.NET.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/00 Topic.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/03 Razor/00 Razor.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/04A Filters.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/11 Cloud (AWS,Azure)/11B Azure/01. Azure - Fundamentals.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/11 Cloud (AWS,Azure)/11B Azure/00 AWS VS Azure.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/08 Real-time Communication.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/07 Configuration & Logging.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/06 API Features.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/05 Authentication & Authorization.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/04 MVC & Request Handling.md",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/03 Razor",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core",
-    "MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/02 MVC",
+    "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS/02 Compute & Storage.md",
+    "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS/01 AWS Fundamentals.md",
+    "01 Plan/Untitled.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/Basic coding programs.md",
+    "Product Companies Preperation/desktop.ini",
+    "05 DSA and System Design",
+    "04 Front End ( Basics, React, Angular)",
+    "03 DevOps and Cloud",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/09 Performance Optimization.md",
+    "00 Topic MASTER SOFTWARE ENGINEER ROADMAP/00 MASTER SOFTWARE ENGINEER ROADMAP.md",
+    "01 Plan",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/08 Transactions & ACID.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/07 Indexes.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/06 Views & Stored Procedures.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/05A Advanced SQL.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/05 Subqueries & CTE.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/04 Grouping & Sorting.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/03 Functions.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/02 Joins.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/01 SQL Fundamentals.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/00 Topic.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/06 Performance & Tracking.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/05 Migrations & Transactions.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/04 Querying & Loading.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/03 Entity Framework & EF Core Fundamentals.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/02 Dapper.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/01 ADO.NET.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/00 Topic.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/03 Razor/00 Razor.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/04A Filters.md",
+    "03 DevOps and Cloud/Cloud (AWS,Azure)/11B Azure/01. Azure - Fundamentals.md",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/03 Razor",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/02 MVC",
     "Untitled.canvas",
     "Pasted image 20260702145550.png",
     "Pasted image 20260702145612.png",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "MASTER SOFTWARE ENGINEER ROADMAP/11 Cloud (AWS,Azure)/11B Azure",
-    "MASTER SOFTWARE ENGINEER ROADMAP/11 Cloud (AWS,Azure)/11A AWS",
-    "MASTER SOFTWARE ENGINEER ROADMAP/07 Architecture/Untitled",
-    "MASTER SOFTWARE ENGINEER ROADMAP/20 Cheatsheets/desktop.ini",
-    "MASTER SOFTWARE ENGINEER ROADMAP/20 Cheatsheets",
-    "MASTER SOFTWARE ENGINEER ROADMAP/19 Company Preparation",
-    "MASTER SOFTWARE ENGINEER ROADMAP/18 Behavioral Interview"
+    "03 DevOps and Cloud/Cloud (AWS,Azure)/11B Azure",
+    "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS"
   ]
 }
