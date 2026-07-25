@@ -41,16 +41,128 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS/03 Database & Messaging.md",
+                "file": "02 MASTER SOFTWARE ENGINEER ROADMAP/08 Design Patterns/07 Top Design Patterns for Interview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 Database & Messaging"
+              "title": "07 Top Design Patterns for Interview"
+            }
+          },
+          {
+            "id": "3dc80eac1673a48d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Plan/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "fe416a9049e86db7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 Messaging & Event-Driven Architecture/Messaging - old notes - check once.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Messaging - old notes - check once"
+            }
+          },
+          {
+            "id": "c023139488c5c7ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Fast revision/AWS/02 Data/07 RDS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "07 RDS"
+            }
+          },
+          {
+            "id": "c0a2c095b75b2afc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Fast revision/AWS/04 Networking/VPC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VPC"
+            }
+          },
+          {
+            "id": "14ebd84b23b22361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 7 – Microservices (Interview Revision).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Master Topic 7 – Microservices (Interview Revision)"
+            }
+          },
+          {
+            "id": "b492c2567cef4158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 6 – Design Principles & Design Patterns (Interview Revision).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Master Topic 6 – Design Principles & Design Patterns (Interview Revision)"
+            }
+          },
+          {
+            "id": "086fca16daf53495",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 11 – System Design (Interview Revision).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Master Topic 11 – System Design (Interview Revision)"
+            }
+          },
+          {
+            "id": "68267d183a67e1ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 12 – Project Deep Dive (Interview Revision).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Master Topic 12 – Project Deep Dive (Interview Revision)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -107,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 486.5
   },
   "right": {
     "id": "4409af63ab2ef018",
@@ -185,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS/03 Database & Messaging.md",
+                "file": "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 12 – Project Deep Dive (Interview Revision).md",
                 "followCursor": true,
                 "showSearch": true,
-                "searchQuery": "auth"
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03 Database & Messaging"
+              "title": "Outline of Master Topic 12 – Project Deep Dive (Interview Revision)"
             }
           }
         ],
@@ -212,48 +324,49 @@
       "bases:Create new base": false
     }
   },
-  "active": "51e3959a6cdcfc5f",
+  "active": "6e2a1f42cefe45a4",
   "lastOpenFiles": [
-    "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS/02 Compute & Storage.md",
-    "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS/01 AWS Fundamentals.md",
-    "01 Plan/Untitled.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/Basic coding programs.md",
-    "Product Companies Preperation/desktop.ini",
-    "05 DSA and System Design",
-    "04 Front End ( Basics, React, Angular)",
-    "03 DevOps and Cloud",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/09 Performance Optimization.md",
-    "00 Topic MASTER SOFTWARE ENGINEER ROADMAP/00 MASTER SOFTWARE ENGINEER ROADMAP.md",
-    "01 Plan",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/08 Transactions & ACID.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/07 Indexes.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/06 Views & Stored Procedures.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/05A Advanced SQL.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/05 Subqueries & CTE.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/04 Grouping & Sorting.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/03 Functions.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/02 Joins.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/01 SQL Fundamentals.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/05 SQL/00 Topic.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/06 Performance & Tracking.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/05 Migrations & Transactions.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/04 Querying & Loading.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/03 Entity Framework & EF Core Fundamentals.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/02 Dapper.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/01 ADO.NET.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/04 Data Access/00 Topic.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/03 Razor/00 Razor.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core/04A Filters.md",
-    "03 DevOps and Cloud/Cloud (AWS,Azure)/11B Azure/01. Azure - Fundamentals.md",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/03 Razor",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/01 ASP.NET Core",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/03 .NET Core/02 MVC",
+    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 13 – Multithreading & Parallel Programming (Interview Revision).md",
+    "00 Fast revision/Dotnet/05 Interview Preparation",
+    "00 Fast revision/Dotnet/03 Cloud & DevOps/Master Topic 8 – AWS (Interview Revision).md",
+    "00 Fast revision/Dotnet/04 Advanced Backend",
+    "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 11 – System Design (Interview Revision).md",
+    "00 Fast revision/Dotnet/03 Cloud & DevOps",
+    "Fast revision/Dotnet/Architecture & Design/desktop.ini",
+    "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 6 – Design Principles & Design Patterns (Interview Revision).md",
+    "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 7 – Microservices (Interview Revision).md",
+    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 1 – CSharp Fundamentals (Interview Revision).md",
+    "00 Fast revision/Dotnet/02 Architecture & Design",
+    "00 Fast revision/AWS/00 Topic/00 Topic.md",
+    "00 Fast revision/Dotnet/01 Core Fundamentals",
+    "fast revision topics.md",
+    "Fast revision/Dotnet/Dotnet topics.md",
+    "Docker.md",
+    "00 Fast revision/Dotnet/03 Cloud & DevOps/Master Topic 9 – Docker (Interview Revision).md",
+    "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 20 – .NET 8 & CSharp 12 Features (Interview Revision).md",
+    "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 19 – Behavioral & HR Interview (Interview Revision).md",
+    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 18 – Performance Optimization (Interview Revision).md",
+    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 17 – Messaging (RabbitMQ, Kafka, SQS, SNS) (Interview Revision).md",
+    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 16 – Redis & Caching (Interview Revision).md",
+    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 15 – Testing (Interview Revision).md",
+    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 14 – Security (Interview Revision).md",
+    "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 12 – Project Deep Dive (Interview Revision).md",
+    "00 Fast revision/Dotnet/03 Cloud & DevOps/Master Topic 10 – Azure DevOps & Git (Interview Revision).md",
+    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 5 – SQL (Interview Revision).md",
+    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 4 – Entity Framework Core (Interview Revision).md",
+    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 3 – Web API (Interview Revision).md",
+    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 2 – ASP.NET Core (Interview Revision).md",
+    "Fast revision/Dotnet/desktop.ini",
+    "00 Fast revision/Dotnet",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/01 CSharp Fundamentals/00 Quick Revision Topics.md",
+    "00 Fast revision",
+    "AWS/06 Data Processing or ETL/desktop.ini",
+    "Pasted image 20260712061921.png",
+    "Pasted image 20260702145612.png",
+    "Pasted image 20260711180530.png",
     "Untitled.canvas",
     "Pasted image 20260702145550.png",
-    "Pasted image 20260702145612.png",
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "03 DevOps and Cloud/Cloud (AWS,Azure)/11B Azure",
-    "03 DevOps and Cloud/Cloud (AWS,Azure)/11A AWS"
+    "Untitled 1.canvas"
   ]
 }

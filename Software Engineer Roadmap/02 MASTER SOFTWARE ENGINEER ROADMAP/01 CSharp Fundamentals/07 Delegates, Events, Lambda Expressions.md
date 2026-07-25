@@ -77,6 +77,13 @@ notify -= SendSMS;
 - Multiple methods = **Multicast Delegate**
 
 ---
+For a method to be assigned to a delegate, it must have:
+
+- Same parameter types (signature)
+- Same number of parameters
+- Compatible return type
+
+---
 
 ##### Real-Time Example
 

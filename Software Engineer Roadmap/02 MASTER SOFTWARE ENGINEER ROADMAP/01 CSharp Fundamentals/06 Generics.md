@@ -35,15 +35,51 @@
 
 ---
 
-### Generic Constraints
+# Generic Constraints
 
-- Restricts the types that can be used.
-- Examples:
-    - `where T : class`
-    - `where T : struct`
-    - `where T : new()`
-    - `where T : BaseClass`
-    - `where T : IInterface`
+- Restrict the types that can be used as generic parameters.
+    
+
+|Constraint|Meaning|Example|
+|---|---|---|
+|`where T : class`|Only reference types|`string`, `Employee`|
+|`where T : struct`|Only value types|`int`, `bool`|
+|`where T : new()`|Must have a public parameterless constructor|`new T()` is allowed|
+|`where T : BaseClass`|Must inherit from a specific base class|`Dog : Animal`|
+|`where T : IInterface`|Must implement an interface|`Report : IPrintable`|
+
+## Examples
+
+### `new()`
+
+```csharp
+class Factory<T> where T : new()
+{
+    public T Create() => new T();
+}
+```
+
+### `BaseClass`
+
+```csharp
+class Animal { }
+class Dog : Animal { }
+
+class Zoo<T> where T : Animal { }
+```
+
+### `IInterface`
+
+```csharp
+interface IPrintable { }
+class Report : IPrintable { }
+
+class Printer<T> where T : IPrintable { }
+```
+
+## Interview Tip
+
+> Generic constraints restrict what types can be used with a generic, enabling compile-time validation and safer code.
 
 ---
 

@@ -307,7 +307,7 @@ Console.WriteLine(e1 == e2); // True
 
 Here, the values are the same, so the records are considered equal.
 
-### Another useful feature (`with`)
+##### Another useful feature (`with`)
 
 ```
 record Employee(string Name, int Age);
@@ -322,7 +322,7 @@ Console.WriteLine(e2); // Employee { Name = Mani, Age = 26 }
 
 The `with` expression creates a copy with only the specified changes.
 
-### Interview answer (30 seconds)
+##### Interview answer (30 seconds)
 
 > A **record** is mainly used for immutable data objects. Unlike a class, records use **value-based equality**, so two records with the same property values are considered equal. Records also support concise syntax and the `with` expression to create modified copies.
 
@@ -415,6 +415,8 @@ class Program
 - Serialization - Convert object to JSON/XML/Byte stream.
 - Deserialization - Convert JSON/XML/Byte stream back to object.
 - System.Text.Json - Built-in JSON serialization library.
+
+##### System.Text.Json
 ```
 using System;
 using System.Text.Json;
@@ -456,9 +458,51 @@ class Program
 }
 ```
 
+##### Newtonsoft.Json
+
+```csharp
+using System;
+using Newtonsoft.Json;
+
+class Employee
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // Create object
+        Employee emp = new Employee
+        {
+            Name = "Mani",
+            Age = 25
+        };
+
+        // Serialize (Object -> JSON)
+        string json = JsonConvert.SerializeObject(emp);
+        Console.WriteLine(json);
+
+        // Output
+        // {"Name":"Mani","Age":25}
+
+        // Deserialize (JSON -> Object)
+        Employee employee = JsonConvert.DeserializeObject<Employee>(json);
+
+        Console.WriteLine(employee.Name);
+        Console.WriteLine(employee.Age);
+
+        // Output
+        // Mani
+        // 25
+    }
+}
+```
 ---
 
-### Reflection - refer the 01A
+### Reflection - 11 CSharp advanced concepts page
 
 - Reflection - Inspect assemblies, types, methods and properties at runtime (`System.Reflection`).
 

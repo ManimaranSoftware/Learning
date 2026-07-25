@@ -77,7 +77,7 @@
 
 ---
 
-## Small improvement 💡
+## Small improvement
 
 Let's also add:
 
