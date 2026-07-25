@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Fast revision/AWS/02 Data/07 RDS.md",
+                "file": "01 Fast revision/AWS/02 Data/07 RDS.md",
                 "mode": "source",
                 "source": false
               },
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Fast revision/AWS/04 Networking/VPC.md",
+                "file": "01 Fast revision/AWS/04 Networking/VPC.md",
                 "mode": "source",
                 "source": false
               },
@@ -111,7 +111,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 7 – Microservices (Interview Revision).md",
+                "file": "01 Fast revision/Dotnet/02 Architecture & Design/Master Topic 7 – Microservices (Interview Revision).md",
                 "mode": "source",
                 "source": false
               },
@@ -125,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 6 – Design Principles & Design Patterns (Interview Revision).md",
+                "file": "01 Fast revision/Dotnet/02 Architecture & Design/Master Topic 6 – Design Principles & Design Patterns (Interview Revision).md",
                 "mode": "source",
                 "source": false
               },
@@ -139,7 +139,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 11 – System Design (Interview Revision).md",
+                "file": "01 Fast revision/Dotnet/02 Architecture & Design/Master Topic 11 – System Design (Interview Revision).md",
                 "mode": "source",
                 "source": false
               },
@@ -153,16 +153,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 12 – Project Deep Dive (Interview Revision).md",
+                "file": "02 MASTER SOFTWARE ENGINEER ROADMAP/00 Quick Revision Topics - Master/00 Quick Revision Topics - Master.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Master Topic 12 – Project Deep Dive (Interview Revision)"
+              "title": "00 Quick Revision Topics - Master"
+            }
+          },
+          {
+            "id": "eb7688e94b22600f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Fast revision/Dotnet/04 Advanced Backend/Master Topic 16 – Redis & Caching (Interview Revision).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Master Topic 16 – Redis & Caching (Interview Revision)"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -297,13 +311,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 12 – Project Deep Dive (Interview Revision).md",
+                "file": "01 Fast revision/Dotnet/04 Advanced Backend/Master Topic 16 – Redis & Caching (Interview Revision).md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Master Topic 12 – Project Deep Dive (Interview Revision)"
+              "title": "Outline of Master Topic 16 – Redis & Caching (Interview Revision)"
             }
           }
         ],
@@ -324,43 +338,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "6e2a1f42cefe45a4",
+  "active": "eb7688e94b22600f",
   "lastOpenFiles": [
-    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 13 – Multithreading & Parallel Programming (Interview Revision).md",
-    "00 Fast revision/Dotnet/05 Interview Preparation",
-    "00 Fast revision/Dotnet/03 Cloud & DevOps/Master Topic 8 – AWS (Interview Revision).md",
-    "00 Fast revision/Dotnet/04 Advanced Backend",
-    "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 11 – System Design (Interview Revision).md",
-    "00 Fast revision/Dotnet/03 Cloud & DevOps",
+    "01 Fast revision/Dotnet/04 Advanced Backend/Master Topic 15 – Testing (Interview Revision).md",
+    "01 Fast revision/Dotnet/04 Advanced Backend/Master Topic 16 – Redis & Caching (Interview Revision).md",
+    "01 Fast revision/Dotnet/04 Advanced Backend/Master Topic 14 – Security (Interview Revision).md",
+    "01 Fast revision/Dotnet/04 Advanced Backend/Master Topic 13 – Multithreading & Parallel Programming (Interview Revision).md",
+    "01 Fast revision/Dotnet/03 Cloud & DevOps/Master Topic 10 – Azure DevOps & Git (Interview Revision).md",
+    "01 Fast revision/Dotnet/03 Cloud & DevOps/Master Topic 9 – Docker (Interview Revision).md",
+    "01 Fast revision/Dotnet/03 Cloud & DevOps/Master Topic 8 – AWS (Interview Revision).md",
+    "01 Fast revision/Dotnet/02 Architecture & Design/Master Topic 11 – System Design (Interview Revision).md",
+    "01 Fast revision/Dotnet/02 Architecture & Design/Master Topic 7 – Microservices (Interview Revision).md",
+    "01 Fast revision/Dotnet/02 Architecture & Design/Master Topic 6 – Design Principles & Design Patterns (Interview Revision).md",
+    "01 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 5 – SQL (Interview Revision).md",
+    "01 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 4 – Entity Framework Core (Interview Revision).md",
+    "01 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 3 – Web API (Interview Revision).md",
+    "01 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 2 – ASP.NET Core (Interview Revision).md",
+    "00 TODO/01 New topics to recall and add in notes only if requried.md",
+    "00 TODO/00 TODO.md",
+    "01 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 1 – CSharp Fundamentals (Interview Revision).md",
+    "00 TODO/desktop.ini",
+    "02 MASTER SOFTWARE ENGINEER ROADMAP/00 Quick Revision Topics - Master/00 Quick Revision Topics - Master.md",
+    "00 TODO",
+    "01 Plan/Untitled.md",
+    "01 Fast revision/Dotnet/05 Interview Preparation/Master Topic 12 – Project Deep Dive (Interview Revision).md",
+    "01 Fast revision/Dotnet/05 Interview Preparation",
+    "01 Fast revision/Dotnet/04 Advanced Backend",
+    "01 Fast revision/Dotnet/03 Cloud & DevOps",
     "Fast revision/Dotnet/Architecture & Design/desktop.ini",
-    "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 6 – Design Principles & Design Patterns (Interview Revision).md",
-    "00 Fast revision/Dotnet/02 Architecture & Design/Master Topic 7 – Microservices (Interview Revision).md",
-    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 1 – CSharp Fundamentals (Interview Revision).md",
-    "00 Fast revision/Dotnet/02 Architecture & Design",
-    "00 Fast revision/AWS/00 Topic/00 Topic.md",
-    "00 Fast revision/Dotnet/01 Core Fundamentals",
+    "01 Fast revision/Dotnet/02 Architecture & Design",
+    "01 Fast revision/AWS/00 Topic/00 Topic.md",
+    "01 Fast revision/Dotnet/01 Core Fundamentals",
     "fast revision topics.md",
     "Fast revision/Dotnet/Dotnet topics.md",
     "Docker.md",
-    "00 Fast revision/Dotnet/03 Cloud & DevOps/Master Topic 9 – Docker (Interview Revision).md",
-    "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 20 – .NET 8 & CSharp 12 Features (Interview Revision).md",
-    "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 19 – Behavioral & HR Interview (Interview Revision).md",
-    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 18 – Performance Optimization (Interview Revision).md",
-    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 17 – Messaging (RabbitMQ, Kafka, SQS, SNS) (Interview Revision).md",
-    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 16 – Redis & Caching (Interview Revision).md",
-    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 15 – Testing (Interview Revision).md",
-    "00 Fast revision/Dotnet/04 Advanced Backend/Master Topic 14 – Security (Interview Revision).md",
-    "00 Fast revision/Dotnet/05 Interview Preparation/Master Topic 12 – Project Deep Dive (Interview Revision).md",
-    "00 Fast revision/Dotnet/03 Cloud & DevOps/Master Topic 10 – Azure DevOps & Git (Interview Revision).md",
-    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 5 – SQL (Interview Revision).md",
-    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 4 – Entity Framework Core (Interview Revision).md",
-    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 3 – Web API (Interview Revision).md",
-    "00 Fast revision/Dotnet/01 Core Fundamentals/Master Topic 2 – ASP.NET Core (Interview Revision).md",
+    "01 Fast revision/Dotnet/05 Interview Preparation/Master Topic 20 – .NET 8 & CSharp 12 Features (Interview Revision).md",
+    "01 Fast revision/Dotnet/05 Interview Preparation/Master Topic 19 – Behavioral & HR Interview (Interview Revision).md",
     "Fast revision/Dotnet/desktop.ini",
-    "00 Fast revision/Dotnet",
-    "02 MASTER SOFTWARE ENGINEER ROADMAP/01 CSharp Fundamentals/00 Quick Revision Topics.md",
-    "00 Fast revision",
-    "AWS/06 Data Processing or ETL/desktop.ini",
+    "01 Fast revision/Dotnet",
     "Pasted image 20260712061921.png",
     "Pasted image 20260702145612.png",
     "Pasted image 20260711180530.png",

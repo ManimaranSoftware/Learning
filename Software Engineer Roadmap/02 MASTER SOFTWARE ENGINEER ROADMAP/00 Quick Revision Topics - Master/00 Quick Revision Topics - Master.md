@@ -1,9 +1,7 @@
 # Quick Revision Topics — Master List
 
 ---
-
 # 01 C# Fundamentals
-
 ---
 
 ## 01 C# Basics

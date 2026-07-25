@@ -85,6 +85,8 @@
 - Simplifies Complex Queries
 - Improves Security
 - Stores Query, Not Data
+A view is a virtual table that improves security, simplifies complex queries, promotes code reuse, and always returns the latest data without storing it physically.
+materialized view may store physically
 
 ---
 

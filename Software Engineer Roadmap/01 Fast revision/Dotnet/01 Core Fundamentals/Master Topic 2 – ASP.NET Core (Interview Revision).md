@@ -59,11 +59,28 @@
 ---
 
 ## Routing
-- Attribute Routing
-- Conventional Routing
+- Attribute Routing 
+	```csharp
+	[Route("api/products")]
+	```
+- Conventional Routing 
+```csharp
+  app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+```
 - Route Parameters
+```csharp
+[HttpGet("{id}")]
+public IActionResult Get(int id)
+```
 - Route Constraints
+```csharp
+[HttpGet("{id:int}")]
 
+//- ✅ `/api/products/10`
+//- ❌ `/api/products/abc`
+```
 ---
 
 ## Model Binding
@@ -72,6 +89,34 @@
 - `FromQuery`
 - `FromHeader`
 - Converts HTTP data into C# Objects
+## Model Binding
+
+- **FromBody**
+```csharp
+[HttpPost]
+public IActionResult Create([FromBody] Product product)
+```
+
+- **FromRoute**
+```csharp
+[HttpGet("{id}")]
+public IActionResult Get([FromRoute] int id)
+```
+
+- **FromQuery**
+```csharp
+[HttpGet]
+public IActionResult Search([FromQuery] string name)
+```
+
+- **FromHeader**
+```csharp
+[HttpGet]
+public IActionResult Get([FromHeader(Name = "Authorization")] string token)
+```
+
+- **Converts HTTP data into C# Objects**
+Automatically converts HTTP request data (Body, Route, Query, Header, Form) into C# parameters or objects.
 
 ---
 

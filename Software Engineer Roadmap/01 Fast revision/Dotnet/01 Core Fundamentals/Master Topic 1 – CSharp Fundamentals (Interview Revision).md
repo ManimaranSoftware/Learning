@@ -46,9 +46,9 @@
 - `var` → Compile-time Type
 - `dynamic` → Runtime Type
 - `object` → Base Type of all .NET Types
-- `const` → Compile-time Constant
-- `readonly` → Runtime Constant
-- `static` → Shared by all Objects
+- `const` → Compile-time Constant - public const double Pi = 3.14159;
+- `readonly` → Runtime Constant - public readonly DateTime LaunchTime; later assinged in constructor - LaunchTime = DateTime.Now;
+- `static` → Shared by all Objects (example count)
 - `sealed` → Cannot Inherit
 - `partial` → Split Class into Multiple Files
 - `ref` → Pass & Modify (Must Initialize)
@@ -80,7 +80,7 @@
 ---
 
 ## Delegates & Events
-- Delegate → Function Pointer
+- Delegate → Function Pointer. rules - method signature should be same, no of param.
 - `Action` → No Return
 - `Func<T>` → Returns Value
 - `Predicate<T>` → Returns `bool`

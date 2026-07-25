@@ -1,4 +1,0 @@
-- Resume (finish)
-- GitHub (set up)
-- Azure project
-- Apply to jobs
