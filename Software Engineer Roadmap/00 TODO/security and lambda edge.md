@@ -1,0 +1,13 @@
+- **Lambda@Edge** – Runs code at CloudFront edge locations to modify requests/responses and add security.
+- **CloudFront Functions** – Lightweight edge functions for headers, redirects, and URL rewrites.
+- **Azure Front Door** – Global entry point with load balancing, routing, and security.
+- **Azure WAF (Web Application Firewall)** – Protects applications from attacks like SQL Injection and XSS.
+- **Azure API Management (APIM)** – Secures, manages, and monitors APIs using policies (JWT, CORS, rate limiting, headers).
+- **ASP.NET Core Middleware** – Processes every HTTP request/response (authentication, CORS, logging, security).
+- **HSTS** – Forces browsers to use HTTPS only.
+- **HTTPS Redirection** – Automatically redirects HTTP requests to HTTPS.
+- **CORS** – Controls which domains are allowed to access your API.
+- **JWT** – Token-based authentication to verify user identity.
+- **IAM** – Manages users, roles, and permissions in AWS.
+- **CloudWatch** – AWS service for logs, monitoring, metrics, and alarms.
+- **Security Headers** – HTTP headers (CSP, HSTS, X-Frame-Options, etc.) that improve application security.
